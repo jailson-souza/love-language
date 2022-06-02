@@ -1,0 +1,21 @@
+/* .h-bg-color {
+    background-color: #09a6a3;
+    color: #fff;
+} */
+
+
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: #09a6a3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 0 32px;
+    margin-bottom: 12px;
+}
+
+.header-title h3 {
+    text-align: center;
+}

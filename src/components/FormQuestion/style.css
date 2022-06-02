@@ -1,0 +1,38 @@
+/* .fq-btn-bg {
+    background-color: #09a6a3;
+    color: #fff;
+} */
+
+.form-question {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 780px;
+  margin: auto;
+  margin-bottom: 64px;
+}
+
+.form-button {
+  padding: 10px 0;
+  border-radius: 2px;
+  border: 1px solid #09a6a3;
+  background-color: #09a6a3;
+  color: #fff;
+  margin-top: 10px;
+  box-shadow: 0px 0px 10px rgba(9, 166, 163, 0.5);
+  transition: all 0.3s ease;
+}
+
+.form-button:hover {
+  background: #00ccbe;
+}
+
+
+.list-result {
+  list-style: none;
+}
+
+.list-result li {
+  margin: 5px 0 5px 0; 
+  list-style: none;
+}

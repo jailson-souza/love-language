@@ -1,0 +1,12 @@
+/* .m-bg-color {
+    background-color: #fcf9d8;
+    height: 100%;
+} */
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}

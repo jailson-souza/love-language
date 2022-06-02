@@ -1,0 +1,83 @@
+/* .q-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.q-option {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.q-order {
+    margin-left: 30px;
+}
+
+.q-option input {
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
+.q-option label {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-top: 3px;
+    margin-right: 10px;
+} 
+
+.q-answer {
+    display: flex;
+    flex-direction: column;
+} */
+
+.q-box {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #f2f2f2;
+  box-shadow: 1px 1px 5px 0px #999;
+}
+
+.q-box + .q-box {
+  margin-top: 10px;
+}
+
+.q-box-order {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  width: 50px;
+  padding: 10px;
+}
+
+.q-box .q-box-answer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.q-box .q-box-answer .q-box-answer-option {
+  display: flex;
+  margin: 5px;
+  /* border: 1px solid #00ff00; */
+  align-items: center;
+}
+
+.q-box .q-box-answer .q-box-answer-option label {
+  margin-left: 10px;
+  margin-top: 2.5px;
+}
+
+.q-box .q-box-answer .q-box-answer-option h3 {
+  margin-top: 2.5px;
+  margin-left: auto;
+}
+
+.q-box-answer-option input[type=radio], .q-box-answer-option label  {
+  cursor: pointer;
+}
